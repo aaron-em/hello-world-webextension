@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "Hello World",
+  "version": "1.0",
+  "description": "hi",
+  "permissions": [
+    "<all_urls>",
+    "tabs"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
