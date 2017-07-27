@@ -15,7 +15,7 @@ browser.windows.getAll({populate: true,
 
         // CSP breaks this
         browser.tabs
-          .executeScript(tab.id, {file: '/content.js'})
+          .executeScript(tab.id, {file: 'content.js'})
           .then(function() {},
                 function(e) {
                   console.log('welp: ' + tab.url);
